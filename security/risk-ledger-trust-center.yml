@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://riskledger.com/security-profile
+probe: false
+url: https://riskledger.com/security-profile
+certifications:
+- ISO/IEC 27001
+- Cyber Essentials
+memberships:
+- FS-ISAC (Early Stage Affiliate)
+- LMA (Lloyd's Market Association)
+security_practices:
+- TLS/SSL encryption in transit (A+ Qualys rating)
+- AES-256 encryption at rest
+- Mandatory multi-factor authentication (MFA)
+- Regular independent vulnerability scanning and penetration testing
+- Hosted on AWS across two availability zones, Infrastructure-as-Code
+security_contact: security@riskledger.com
+evidence:
+- source: https://riskledger.com/security-profile
+  keywords: [iso 27001, cyber essentials, encryption, mfa, penetration testing]

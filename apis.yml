@@ -1,7 +1,29 @@
 aid: risk-ledger
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/risk-ledger.png
 name: Risk Ledger
-description: Risk Ledger is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Risk Ledger is a London-based third-party and supply chain risk management
+  platform that helps organizations assess, monitor, and continuously manage
+  the security risks across their supplier networks. Through its "Active Supply
+  Chain Security" model and a connected network of 16,000+ organizations,
+  suppliers complete a single standardized security assessment once and share it
+  with every client, eliminating repetitive questionnaires. The platform maps
+  supply chains from third through sixth parties, surfaces concentration risk,
+  and delivers emerging-threat intelligence and breach monitoring with
+  remediation tracking. Risk Ledger serves the public sector, critical national
+  infrastructure, financial services and insurance, and technology sectors, and
+  is ISO/IEC 27001 and Cyber Essentials certified. It is backed by Seedcamp.
 url: https://raw.githubusercontent.com/api-evangelist/risk-ledger/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Third-Party Risk Management
+- Supply Chain Security
+- Risk Management
+- Compliance
+- Governance
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,40 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/risk-ledger-domain-security.yml
 - type: Website
-  url: http://riskledger.com
+  url: https://riskledger.com
+- type: Documentation
+  url: https://riskledger.com/help
+- type: Support
+  url: https://riskledger.com/help
+- type: HelpCenter
+  url: https://riskledger.com/help
+- type: Blog
+  url: https://riskledger.com/resources
+- type: GitHubOrganization
+  url: https://github.com/riskledger
+- type: ChangeLog
+  url: https://riskledger.com/changelog
+- type: ChangeLog
+  url: changelog/risk-ledger-changelog.yml
+- type: PrivacyPolicy
+  url: https://riskledger.com/privacy
+- type: Login
+  url: https://app.riskledger.com/auth/login
+- type: SignUp
+  url: https://riskledger.com/book-a-demo
+- type: Security
+  url: https://riskledger.com/responsible-disclosure-policy
+- type: VulnerabilityDisclosure
+  url: security/risk-ledger-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/risk-ledger-trust-center.yml
+- type: Compliance
+  url: https://riskledger.com/security-profile
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

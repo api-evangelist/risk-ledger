@@ -1,0 +1,49 @@
+generated: '2026-07-21'
+method: searched
+source: https://riskledger.com/changelog
+scheme: dated-monthly
+surface: product
+current_version: null
+entries:
+- date: '2026-07-06'
+  title: Faster reviews when you have the right context
+  breaking: false
+  highlights:
+  - Resizable review panels
+  - Pinned context display
+  - New Pipeline status field for tracking supplier contract lifecycle
+- date: '2026-06-09'
+  title: Better network navigation for deeper insights
+  breaking: false
+  highlights:
+  - Network map search now zooms to results
+  - Direct profile access for any supplier
+  - Auto Suggest model upgraded to Claude Haiku 4.5
+- date: '2026-05-07'
+  title: Faster reviews with greater confidence
+  breaking: false
+  highlights:
+  - Reviewer assignments for controls/domains
+  - Redesigned assessment interface
+  - Certificate Discovery integration with IAF
+- date: '2026-04-02'
+  title: Your redesigned Action Centre
+  breaking: false
+  highlights:
+  - Consolidated connection activity
+  - Improved contact management
+  - Enhanced notification system for bounced emails
+- date: '2026-03-02'
+  title: More meaningful compliance scores
+  breaking: false
+  highlights:
+  - Refined scoring to reflect policy-relevant controls only
+- date: '2026-02-04'
+  title: Deeper security insights, without extra work
+  breaking: false
+  highlights:
+  - Automatic asset discovery for External Monitoring (Beta)
+  - Framework updates
+notes: >-
+  Product-surface changelog only; Risk Ledger publishes no public API and no
+  developer/API changelog.
