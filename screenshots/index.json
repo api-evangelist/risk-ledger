@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "risk-ledger",
+    "captured_at": "2026-10-11T192505",
+    "source_url": "https://riskledger.com",
+    "source_type": "Website",
+    "file": "risk-ledger-2026-10-11T192505.png",
+    "bytes": 473728,
+    "capture": "playwright-local"
+  }
+]
